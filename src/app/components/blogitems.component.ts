@@ -3,15 +3,22 @@ import {HTTP_PROVIDERS, Http, Response, Request} from '@angular/http';
 
 @Component({
     moduleId: module.id,
-    selector: 'blogitem',
-    templateUrl: 'blogitem.component.html'
+    selector: 'blogitems',
+    templateUrl: 'blogitems.component.html'
 })
 
-export class BlogItem {
+export class BlogItems {
 
   constructor() {
 
   };
+
+  getitems() {
+
+// /blogitems
+
+
+  }
 
 
 }

@@ -1,12 +1,12 @@
 import { Component, Inject } from '@angular/core';
-import { BlogItem } from './components/blogitem.component';
+import { BlogItems } from './components/blogitems.component';
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
-  directives: [BlogItem]
+  directives: [BlogItems]
 })
 
 export class AppComponent {
